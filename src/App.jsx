@@ -1,6 +1,7 @@
 import "./App.css";
 import ContextApp from "./ContextApp";
 import ZustandApp from "./ZustandApp";
+import ReduxApp from "./ReduxApp";
 
 function App() {
   console.log("render app.jsx");
@@ -8,6 +9,7 @@ function App() {
     <>
       <ContextApp/>
       <ZustandApp/>
+      <ReduxApp/>
     </>
   );
 }
